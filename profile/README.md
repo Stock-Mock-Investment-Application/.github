@@ -1,4 +1,4 @@
-## ⭐ WebRTC 기반 실시간 협업 기능을 갖춘 혁신적인 모의 주식투자 플랫폼 
+## ⭐ 모의 주식투자 어플
 
 ![아이디어보드](https://github.com/Stock-Mock-Investment-Application/.github/blob/main/profile/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%EB%B3%B4%EB%93%9C.png?raw=true)
 
