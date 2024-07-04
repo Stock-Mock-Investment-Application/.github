@@ -8,6 +8,9 @@
 
 [경주_1반_C107팀_아이디어해커톤_결과보고서.pdf](https://github.com/Stock-Mock-Investment-Application/Ideathon/blob/main/0704/%EA%B4%91%EC%A3%BC_1%EB%B0%98_C107%ED%8C%80_%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%ED%95%B4%EC%BB%A4%ED%86%A4_%EA%B2%B0%EA%B3%BC%EB%AC%BC.pdf)
 
+[![아이디어해커톤 결과보고서](https://raw.githubusercontent.com/Stock-Mock-Investment-Application/Ideathon/main/0704/pdf-thumbnail.png)](https://github.com/Stock-Mock-Investment-Application/Ideathon/blob/main/0704/%EA%B4%91%EC%A3%BC_1%EB%B0%98_C107%ED%8C%80_%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%ED%95%B4%EC%BB%A4%ED%86%A4_%EA%B2%B0%EA%B3%BC%EB%AC%BC.pdf)
+
+
 <!--
 
 **Here are some ideas to get you started:**
