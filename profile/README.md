@@ -78,7 +78,7 @@ Git, VS Code Live , Mattermost
 [📎 Figma Link  ](https://www.figma.com/design/I7G6UwDk6q77acJHXI0o4J/ssafy-%EA%B3%B5%ED%86%B5?node-id=0-1&t=9wMHmHweJ2Ckecuf-1).
 
 
-![Figma](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcJHos8%2FbtsHxRVqchl%2F9oelXsL1MMGClfLaCnqrQ0%2Fimg.jpg)
+![Figma](https://github.com/Story-Boat/Ideathon/blob/main/Figma/figma.png?raw=true)
 
 메인 페이지, 로그인, 회원가입, 로그아웃, 프로필페이지(마이펫 포함), 금리 비교 (데이터 저장, 전체 조회, 상세 조회), 환율계산기, 은행검색, 커뮤니티, 금융 상품 추천 알고리즘 등 계획했던 기능을 모두 구현하였습니다.  
 
