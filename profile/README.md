@@ -96,7 +96,7 @@ Jira, Git & Github, Mattermost
 
 📎 Architecture
 
-![Architecture](https://github.com/Story-Boat/Ideathon/blob/main/ERD/%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90.png?raw=true)
+![Architecture](https://github.com/Story-Boat/Ideathon/blob/main/ERD/%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90(%EA%B0%9C%EC%84%A0%EC%95%88).jpg?raw=true)
 
 ### 🗂️ API 명세서 
 사용한 API : 카카오맵, 한국수출입은행 환율정보, 금융감독원, GPT OPEN AI
