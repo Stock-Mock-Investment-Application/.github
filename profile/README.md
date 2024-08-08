@@ -75,7 +75,8 @@ Git, VS Code Live , Mattermost
 
 ## 프런트엔드 화면 디자인 설계
 ### 🎨 Figma 
-[📎 Figma Link  ](https://www.figma.com/design/4uLEnFeFRbHxRX1YmcIreS/%EA%B8%88%EC%9C%B5%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%94%BC%EA%B7%B8%EB%A7%88?node-id=0%3A1&t=GneVOKSpgqVgMRE9-1)
+[📎 Figma Link  ](https://www.figma.com/design/I7G6UwDk6q77acJHXI0o4J/ssafy-%EA%B3%B5%ED%86%B5?node-id=0-1&t=9wMHmHweJ2Ckecuf-1).
+
 
 ![Figma](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcJHos8%2FbtsHxRVqchl%2F9oelXsL1MMGClfLaCnqrQ0%2Fimg.jpg)
 
