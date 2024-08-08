@@ -64,10 +64,14 @@
 |  | Front | Back | Infra |
 | --- | --- | --- |  --- |
 | **Language** | JavaScript | Java |  |
-| **Framework** | React, Vite | Spring Boot, Spring Security | Amazon EC2, AWS, Jenkins, Docker, Nginx |
+| **Framework** | React, Vite | Spring Boot, Spring Security |  |
 | **Library** | WebRTC, Material-UI (MUI), Yjs, Styled-components, React-i18next, React-speech-kit | Lombok  |  |
-| **DB** |  | MongoDB, MariaDB | Amazon S3 |
+| **DB** |  | MongoDB, MariaDB |  |
+| **Server** |  |  | Amazon EC2, Nginx, Docker |
+| **Cloud Services** |  |  | AWS, Amazon S3 |
+| **CI/CD Tools** |  |  | Jenkins |
 | **AI** | SDXL(Stable Diffusion XL), DPO(Direct Preference Optimization) |  |  |
+
 
 - 협업 도구
 
