@@ -72,7 +72,7 @@
 | **CI/CD Tools** |  |  | Jenkins |
 | **AI** | SDXL(Stable Diffusion XL), DPO(Direct Preference Optimization) |  |  |
 
-
+<br/>
 - 협업 도구
 
 Jira, Git & Github, Mattermost
