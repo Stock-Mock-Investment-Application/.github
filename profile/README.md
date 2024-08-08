@@ -84,9 +84,11 @@ Git, VS Code Live , Mattermost
 
 ## 백엔드 데이터 설계
 ### 📑데이터베이스 모델링 (ERD)
-[📎 ERD Drawing Link ](https://www.erdcloud.com/d/exwbK7Fhyy2a3QKqZ)
+[📎 ERD Drawing ]
 
-![ERD 이미지](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FK1DDh%2FbtsHx9aBazq%2FkeGuWg5ACF50dpzPrQgDbk%2Fimg.png)
+![ERD 이미지](https://github.com/Story-Boat/Ideathon/blob/main/ERD/2.%EC%B9%BC%EB%9F%BC%EC%B6%94%EA%B0%80.png?raw=true)
+![ERD 이미지](https://github.com/Story-Boat/Ideathon/blob/main/ERD/4.%EB%AA%BD%EA%B3%A0DB%EB%A5%BC%20%EA%B3%A0%EB%A0%A4%ED%95%9C%20ERD.png?raw=true)
+
 
 
 ### 🗂️ API 명세서 
