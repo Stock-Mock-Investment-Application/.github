@@ -123,23 +123,26 @@ Jira, Git & Github, Mattermost
 
 ![WebRTC](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/RTC1.png?raw=true)
 
-WebRTC는 웹 브라우저 간의 p2p 통신을 가능하게 하는 기술입니다.
-WebRTC는 연결 방식에 따라 Mesh, SFU, MCU 방식으로 구현할 수 있습니다.
-서로 다른 클라이언트가 통신하기 위해선, 서로의 정보를 알아야 합니다.
-이 정보를 조회하기 위해 Signal Server를 이용합니다.
+WebRTC는 웹 브라우저 간의 p2p 통신을 가능하게 하는 기술입니다. WebRTC는 연결 방식에 따라 Mesh, SFU, MCU 방식으로 구현할 수 있습니다. 서로 다른 클라이언트가 통신하기 위해선, 서로의 정보를 알아야 합니다. 이 정보를 조회하기 위해 Signal Server를 이용합니다.
 <br/>
 #### SignalServer
 
 ![WebRTC](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/RTC2.png?raw=true)
 
-클라이언트는 ICE를 통해 수집한 네트워크 연결 정보를 시그널 서버로 SDP로 전달합니다.
-ICE(Interactive Connectivity Establishment)는 피어 간의 최적의 경로를 찾아주는 프레임워크이며, 내부적으로 STUN을 통해 공인 IP와 포트를 조회합니다. 만약 방화벽 등으로 인해 직접 접근이 불가능한 경우, TURN을 통해 우회 접근할 수 있습니다.
-SDP(Session Description Protocol)는 ICE로 찾아낸 클라이언트 정보를 포함한 통신을 위한 정보를 송수신 하기 위한 프로토콜 입니다.Offer와 Answer를 통해 상호 연결을 시도하며, 이를 통해 클라이언트 간의 통신 경로가 설정됩니다. 시그널링 서버는 이 과정에서 필요한 정보를 중계하며, 연결이 성립된 이후에는 클라이언트 간의 직접 통신이 가능합니다.
+클라이언트는 ICE를 통해 수집한 네트워크 연결 정보를 시그널 서버로 SDP로 전달합니다. ICE(Interactive Connectivity Establishment)는 피어 간의 최적의 경로를 찾아주는 프레임워크이며, 내부적으로 STUN을 통해 공인 IP와 포트를 조회합니다. 만약 방화벽 등으로 인해 직접 접근이 불가능한 경우, TURN을 통해 우회 접근할 수 있습니다. SDP(Session Description Protocol)는 ICE로 찾아낸 클라이언트 정보를 포함한 통신을 위한 정보를 송수신 하기 위한 프로토콜 입니다.Offer와 Answer를 통해 상호 연결을 시도하며, 이를 통해 클라이언트 간의 통신 경로가 설정됩니다. 시그널링 서버는 이 과정에서 필요한 정보를 중계하며, 연결이 성립된 이후에는 클라이언트 간의 직접 통신이 가능합니다.
 
 
 
-### 2️⃣ AI 글쓰기 
-동일하게 1만명의 유저 더미데이터를 생성합니다. 사용자가 선호하는 은행을 고려하여 해당 은행의 상품을 우선적으로 고려합니다. 사용자의 저축 성향을 분석하여 상, 중, 하로 나눕니다. (상 : 24개월 이상 저축, 중: 12개월~24개월 저축, 하: 12개월 이하) 이렇게 나눠진 그룹 그 중에서 가장 금리가 높은 상품을 추천합니다. 추가로 연봉과 자산을 고려하여 예금과 적금을 구별하고, 사용자에게 맞는 상품을 추천하게 설계가 되어있습니다. 이렇게 세심한 고려와 다양한 요소를 고려한 추천 알고리즘은 사용자에게 현명한 금융 결정을 돕는 데 큰 도움이 될 것입니다.
+### 2️⃣ SDXL - AI 텍스트 기반 이미지 생성 모델 
+
+SDXL은 Diffusion 모델을 기반으로 하며, 큰 해상도를 가진 이미지를 생성하는 데 사용됩니다. Diffusion은 이미지 생성에 사용되는 확률적 생성 모델로, 이미지의 픽셀 값을 조금씩 변화시키면서 점진적으로 이미지를 생산합니다. 이 과정에서 노이즈가 이미지에 점진적으로 누적되면서  더 큰 해상도의 이미지를 생성할 수 있게 됩니다.
+
+![SDXL1](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/SDXL1.jpg?raw=true
+)
+
+저희는 이 과정에서 Segmind API를 사용하였습니다. COYO-700M과 LAION-2B에서 가져온 이미지-텍스트 쌍을 기반으로 대규모 데이터셋을 형성하였고, SDXL 모델을 활용하여 학습이 완료된 모델을 활용한 것입니다. 이 모델에 prompt를 입력하면, 텍스트에 기반한 이미지가 생성되며 더 정교한 설명을 할수록 원하는 이미지에 근접할 확률이 높아집니다 
+
+![SDXL2](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/SDXL2.jpg?raw=true)
 
 ### 3️⃣ AI 그림그리기 
 
