@@ -90,8 +90,9 @@ Git, VS Code Live , Mattermost
 ![ERD 이미지](https://github.com/Story-Boat/Ideathon/blob/main/ERD/2.%EC%B9%BC%EB%9F%BC%EC%B6%94%EA%B0%80.png?raw=true)
 ![ERD 이미지](https://github.com/Story-Boat/Ideathon/blob/main/ERD/4.%EB%AA%BD%EA%B3%A0DB%EB%A5%BC%20%EA%B3%A0%EB%A0%A4%ED%95%9C%20ERD.png?raw=true)
 
-📎 아키텍쳐 
-![ERD 이미지](https://github.com/Story-Boat/Ideathon/blob/main/ERD/%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90.png?raw=true)
+📎 Architecture
+
+![Architecture](https://github.com/Story-Boat/Ideathon/blob/main/ERD/%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90.png?raw=true)
 
 ### 🗂️ API 명세서 
 사용한 API : 카카오맵, 한국수출입은행 환율정보, 금융감독원, GPT OPEN AI
