@@ -103,8 +103,6 @@ Jira, Git & Github, Mattermost
 <br>
 [API 명세서](https://github.com/Story-Boat/Ideathon/blob/main/%EB%AA%85%EC%84%B8%EC%84%9C/%EA%B3%B5%ED%86%B5%20PJT%20%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%20%EC%A0%95%EB%A6%AC%20-%20API%20%20%EB%AA%85%EC%84%B8%EC%84%9C2.pdf)
 
-![API 명세서](https://blog.kakaocdn.net/dn/b6ER6m/btsHAuKQuh6/Cb90PoGwZTsGlkKIIa7Hh1/img.png)
-
 요구사항 명세서 
 ![요구사항 명세서1](https://github.com/Story-Boat/Ideathon/blob/main/%EB%AA%85%EC%84%B8%EC%84%9C/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%20%EB%AA%85%EC%84%B8%EC%84%9C1.png?raw=true)
 ![요구사항 명세서2](https://github.com/Story-Boat/Ideathon/blob/main/%EB%AA%85%EC%84%B8%EC%84%9C/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%20%EB%AA%85%EC%84%B8%EC%84%9C2.png?raw=true)
