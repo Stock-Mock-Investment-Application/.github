@@ -167,6 +167,8 @@ Jira, Git & Github, Mattermost
 <br> 조회, 생성, 삭제, 수정 기능 구현 (CRUD)
 <br>
 <br>
+
+---
 ## 🙇 느낀점
 
 <table>
@@ -199,7 +201,7 @@ Jira, Git & Github, Mattermost
   </tr>
 </table>
 
-
+---
 ### 참고사항
 #### ① 도입배경
 기존 서비스들과 차별화된 소설 제작 사이트를 제작해보자 
