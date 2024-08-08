@@ -63,10 +63,11 @@
 
 |  | Front | Back | Infra |
 | --- | --- | --- |  --- |
-| Language | JavaScript | Java | Java |
-| Framework | React | SpringBoot | Amazon EC2, AWS, Jenkins, Docker |
-| Library |  |  |  |
-| DB |  |  |  |
+| **Language** | JavaScript | Java |  |
+| **Framework** | React, Vite | Spring Boot, Spring Security | Amazon EC2, AWS, Jenkins, Docker, Nginx |
+| **Library** | WebRTC, Material-UI (MUI), Yjs, Styled-components, React-i18next, React-speech-kit |  |  |
+| **DB** |  | MongoDB, MariaDB | Amazon S3 |
+| **AI** | SDXL(Stable Diffusion XL), DPO(Direct Preference Optimization) |  |  |
 
 - 협업 도구
 
