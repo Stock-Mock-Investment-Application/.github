@@ -154,24 +154,27 @@ Jira, Git & Github, Mattermost
 <br>
 ### 5️⃣ 팀 찾기 
 ![팀 찾기1](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/5.1%20%ED%8C%80%20%EC%B0%BE%EC%95%84%EB%B3%B4%EA%B8%B0.png?raw=true)
+
+### 6️⃣ 팀원 모집 및 초대
 ![팀원 모집](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/5.2%20%ED%8C%80%EC%9B%90%EB%AA%A8%EC%A7%91.png?raw=true)
 ![팀원 초대](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/5.3%20%ED%8C%80%EC%9B%90%20%EC%B4%88%EB%8C%80%ED%95%98%EA%B8%B0.png?raw=true)
 <br><br>한국 수출입은행 환율정보 API를 활용하여 현재 환율에 대한 정보 가져오기 
 <br> 원화 입력 시 선택한 국가의 통화로 변환된 값을 출력하도록, 타국 통화 입력 시 해당 통화를 원화로 변환한 값 출력하도록 구성
 <br>
-### 6️⃣ 캐릭터 보관함
+### 7️⃣ 캐릭터 보관함
 ![캐릭터 보관함1](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/6.1%20%EC%BA%90%EB%A6%AD%ED%84%B0%20%ED%8E%98%EC%9D%B4%EC%A7%80.jpg?raw=true)
 ![캐릭터 보관함2](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/6.2%20%EC%BA%90%EB%A6%AD%ED%84%B0%20%ED%8E%98%EC%9D%B4%EC%A7%80.jpg?raw=true)
 ![캐릭터 보관함3](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/6.3%20%EC%BA%90%EB%A6%AD%ED%84%B0%20%ED%8E%98%EC%9D%B4%EC%A7%80.jpg?raw=true)
 <br><br>Kakao Maps API를 활용하여 은행의 위치를 검색할 수 있도록 구현
  <br>
-### 7️⃣ AI 글쓰기, 그림그리기 
+### 8️⃣ AI 글쓰기, 그림그리기 
 ![글쓰기](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/7.2%20AI%20%EA%B8%80%EC%93%B0%EA%B8%B0.png?raw=true)
 ![그림그리기](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/7.3%20AI%EA%B7%B8%EB%A6%BC%EA%B7%B8%EB%A6%AC%EA%B8%B0.jpg?raw=true)
 <br>회원간 소통할 수 있는 커뮤니티게시판
 <br> 조회, 생성, 삭제, 수정 기능 구현 (CRUD)
 <br>
 
+### 9️⃣ 구독 플랜 
 ![구독플랜](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/8%20%EA%B5%AC%EB%8F%85%ED%94%8C%EB%9E%9C.png?raw=true)
 
 ---
