@@ -130,43 +130,49 @@ Jira, Git & Github, Mattermost
 
 ## 💁 구현된 어플 DEMO 페이지 
 ### 1️⃣ 메인페이지
-![메인페이지](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fl9nt6%2FbtsHy6Yq8Ym%2FbmJ3ewJbs1F2vIMFCXjQq1%2Fimg.jpg)
+![메인페이지](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/1.%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80.png?raw=true)
 <br><br>네비게이션바를 사용해서 반응형으로 제작
 <br>JavaScript 코드를 Vue 코드로 변환하여 애니메이션 기능 추가
 <br>
-### 2️⃣ 로그인, 회원가입 페이지 
-![로그인 페이지](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FPBBOW%2FbtsHyT53Ika%2FF8DoPYwrK31ARsZqSYZxz1%2Fimg.png)
-![회원가입 페이지](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fz9wQb%2FbtsHzHKDMlA%2FnioZDPveQioATwIrpDn6h0%2Fimg.png)
+### 2️⃣ 로그인 페이지 
+![로그인 페이지](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/2.%EB%A1%9C%EA%B7%B8%EC%9D%B8,%20%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85.png?raw=true)
+
 <br><br>회원 관리를 할 수 있는 기능(회원 가입, 로그인, 로그아웃 등)을 구성
 <br>Django의 기본 User를 상속받아 커스텀 User를 구현함
 <br>
 ### 3️⃣ 프로필 페이지
-![프로필 페이지](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FlCFPN%2FbtsHyDPYJDx%2FJxvZGltHMoWmV9NDOIWzp1%2Fimg.png)
-![마이펫](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbmPiZc%2FbtsHxJi6fAV%2FDkLWkXQWaoeiD7gt5xiIu1%2Fimg.png)
+![프로필 페이지](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/3.%20%ED%94%84%EB%A1%9C%ED%95%84.png?raw=true)
 <br><br>회원의 기본 정보를 출력할 수 있도록 적절한 화면 구성
 <br> 
 
-### 4️⃣ 금리비교 
-![금리비교](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FDFI5H%2FbtsHyDvGm6l%2FNIZailKWbNAOvsuL8NbMXK%2Fimg.png)
+### 4️⃣ 스토리 작성 
+![스토리 작성1](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/4.1%20%EC%8A%A4%ED%86%A0%EB%A6%AC%20%EC%9E%91%EC%84%B1.png?raw=true)
+![스토리 작성2](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/4.2%EC%8A%A4%ED%86%A0%EB%A6%AC%20%EC%9E%91%EC%84%B1.png?raw=true)
 <br>금융상품통합비교공시 API를 활용하여 금융 상품 정보 가져오기
 <br> 상품 목록을 볼 수 있도록 적절한 화면을 구성
 <br> 특정 상품 클릭 시 상세 정보를 볼 수 있도록 구현
 <br>
-### 5️⃣ 환율계산기
-![환율계산기](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkOoyP%2FbtsHzsAaEoT%2FcGMb7ydtzVTGUrJT0AKunk%2Fimg.png)
+### 5️⃣ 팀 찾기 
+![팀 찾기1](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/5.1%20%ED%8C%80%20%EC%B0%BE%EC%95%84%EB%B3%B4%EA%B8%B0.png?raw=true)
+![팀원 모집](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/5.2%20%ED%8C%80%EC%9B%90%EB%AA%A8%EC%A7%91.png?raw=true)
+![팀원 초대](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/5.3%20%ED%8C%80%EC%9B%90%20%EC%B4%88%EB%8C%80%ED%95%98%EA%B8%B0.png?raw=true)
 <br><br>한국 수출입은행 환율정보 API를 활용하여 현재 환율에 대한 정보 가져오기 
 <br> 원화 입력 시 선택한 국가의 통화로 변환된 값을 출력하도록, 타국 통화 입력 시 해당 통화를 원화로 변환한 값 출력하도록 구성
 <br>
-### 6️⃣ 은행검색
-![은행검색](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcEk7Ef%2FbtsHynzPWf3%2Fke9FK7mp8J5HiTeKASYlR0%2Fimg.jpg)
+### 6️⃣ 캐릭터 보관함
+![캐릭터 보관함1](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/6.1%20%EC%BA%90%EB%A6%AD%ED%84%B0%20%ED%8E%98%EC%9D%B4%EC%A7%80.jpg?raw=true)
+![캐릭터 보관함2](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/6.2%20%EC%BA%90%EB%A6%AD%ED%84%B0%20%ED%8E%98%EC%9D%B4%EC%A7%80.jpg?raw=true)
+![캐릭터 보관함3](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/6.3%20%EC%BA%90%EB%A6%AD%ED%84%B0%20%ED%8E%98%EC%9D%B4%EC%A7%80.jpg?raw=true)
 <br><br>Kakao Maps API를 활용하여 은행의 위치를 검색할 수 있도록 구현
  <br>
-### 7️⃣ 커뮤니티 
-![커뮤니티](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbrj0iv%2FbtsHAeuIAUT%2FVVAtlFGO2Qc11bPY2OxzM1%2Fimg.png)
+### 7️⃣ AI 글쓰기, 그림그리기 
+![글쓰기](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/7.2%20AI%20%EA%B8%80%EC%93%B0%EA%B8%B0.png?raw=true)
+![그림그리기](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/7.3%20AI%EA%B7%B8%EB%A6%BC%EA%B7%B8%EB%A6%AC%EA%B8%B0.jpg?raw=true)
 <br>회원간 소통할 수 있는 커뮤니티게시판
 <br> 조회, 생성, 삭제, 수정 기능 구현 (CRUD)
 <br>
-<br>
+
+![구독플랜](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/8%20%EA%B5%AC%EB%8F%85%ED%94%8C%EB%9E%9C.png?raw=true)
 
 ---
 ## 🙇 느낀점
