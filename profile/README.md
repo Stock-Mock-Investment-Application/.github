@@ -72,7 +72,11 @@
 
 - 협업 도구
 
-Git, VS Code Live , Mattermost
+Jira, Git & Github, Mattermost
+[📎 Jira  ](https://github.com/Story-Boat/Ideathon/blob/main/Jira/Cap%202024-08-08%2023-38-15-144.png?raw=true).
+[📎 Jira  ](https://github.com/Story-Boat/Ideathon/blob/main/Jira/Cap%202024-08-08%2023-38-21-599.png?raw=true).
+[📎 Jira  ](https://github.com/Story-Boat/Ideathon/blob/main/Jira/Cap%202024-08-08%2023-38-50-202.png?raw=true).
+
 
 ## 프런트엔드 화면 디자인 설계
 ### 🎨 Figma 
