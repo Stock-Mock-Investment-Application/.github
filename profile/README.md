@@ -1,4 +1,4 @@
-# 🐹 Story 
+# 🐹 Story Boat
 ### 공동 소설 제작 어플리케이션
 
 | Notion Page | 프로젝트 팀 |
