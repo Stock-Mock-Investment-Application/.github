@@ -12,9 +12,11 @@
 
 ### 💻 IV. 서비스 대표 기능들에 대한 기술적인 설명
 
-### 💁 V. 구현된 어플 DEMO 페이지 
+### ☄️ V. 트러블 슈팅  
 
-### 🙇 VI. 느낀 점 및 참고사항
+### 💁 VI. 구현된 어플 DEMO 페이지 
+
+### 🙇 VII. 느낀 점 및 참고사항
 
 
 ---
@@ -157,6 +159,66 @@ SDXL은 Diffusion 모델을 기반으로 하며, 큰 해상도를 가진 이미�
 *여기서 "가상화"란 자원을 독립적인 환경처럼 보이게 만들어주는 기술을 의미합니다.*
 도커에서는 애플리케이션을 **이미지(Image)**라는 형태로 패키징하며, 이는 마치 애플리케이션의 설계도와 같습니다. 이 이미지를 실제로 실행 가능한 환경으로 변환한 것이 **컨테이너(Container)**입니다. 즉, 이미지를 컨테이너로 변환하여 실행합니다. 그리고 이러한 이미지는 이미 많은 사람들이 생성해 놓았기 때문에, 우리는 기존의 이미지를 감사하게 가져다 사용하면 됩니다. Jenkins는 소프트웨어 구축, 테스트, 배포와 관련된 모든 종류의 작업을 자동화하는 데 사용할 수 있는 독립형 오픈 소스 자동화 서버입니다. Jenkins는 기본 시스템 패키지, Docker를 통해 설치하거나 Java Runtime Environment(JRE)가 설치된 모든 시스템에서 독립 실행형으로 실행할 수 있습니다.
 
+---
+## ☄️ 트러블 슈팅
+### 1️⃣ Build Error
+1. no main manifest attribute, in app.jar
+**build.gradle**
+```
+bootJar {
+	enabled = true
+}
+jar {
+	enabled = false
+}
+
+```
+Plain jar vs Executable jar
+**bootJar** : 라이브러리, 의존성이 포함된 Jar 파일을 생성하는 옵션
+**jar** : 일반적인 jar 파일로 실행 가능한 형태가 아님!, 주로 라이브러리 JAR 파일 만들때 실행
+- 둘 다 `true`로 설정할 경우, Docker build시 에러 발생
+    
+    ```bash
+    # Dockerfile
+    ...
+    ARG JAR_FILE=build/libs/*.jar
+    COPY ${JAR_FILE} app.jar
+    ...
+    # *를 특정 jar 파일명으로 수정하거나 bootJar만 빌드하도록 설정
+    ```
+ 만약 `bootJar`를 `true`로 설정하고 `java -jar` 를 실행할 경우 에러 발생.
+ no main manifest attribute, in {jar 파일명}.jar
+    
+
+2. Manifest duplicated
+    
+    빌드 과정에서 물리적으로 두 개의 `MANIFEST.MF` 파일이 존재하지는 않지만, 여러 종속성이나 라이브러리가 각각 자신의 `MANIFEST.MF` 파일을 포함하고 있을 수 있습니다. 빌드 도구인 Gradle은 이 파일들을 병합하거나 복사하는 과정에서 중복된 항목을 처리해야 합니다.
+    
+    `DuplicatesStrategy`를 설정하지 않으면, Gradle은 기본적으로 중복된 파일을 모두 포함하려고 하며, 이로 인해 빌드 과정에서 충돌이 발생할 수 있습니다. 따라서, `DuplicatesStrategy.EXCLUDE` 설정을 통해 중복 파일을 무시하고 첫 번째 파일만 포함하도록 지정함으로써 이러한 충돌을 방지할 수 있습니다.
+    
+    다음은 `DuplicatesStrategy` 설정을 통해 빌드를 성공시키는 일반적인 방법입니다:
+    
+    1. **`build.gradle` 파일에서 설정**:
+        
+        ```groovy
+        groovy코드 복사
+        bootJar {
+            duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+        }
+        
+        ```
+        
+    2. **기본적으로 병합 과정에서 발생하는 중복 처리**: 여러 종속성에서 동일한 파일을 포함하려 할 때 발생하는 문제를 방지합니다. 이 경우, 처음 발견된 파일만 포함하고 나머지는 무시합니다.
+    3. **빌드 성공**: 중복 파일로 인한 충돌이 발생하지 않으므로 빌드가 성공적으로 완료됩니다.
+    
+    여기서 중요한 점은 실제로 동일한 파일(예: `MANIFEST.MF`)이 여러 번 포함되려고 하는 상황이 발생할 수 있다는 점입니다. 이 경우, 중복 전략을 설정하지 않으면 Gradle이 충돌을 일으킬 수 있습니다. 따라서, `DuplicatesStrategy.EXCLUDE` 설정은 이러한 문제를 해결하는 데 매우 유용합니다.
+
+### 2️⃣ ForwardedheaderFilter
+
+### 3️⃣
+
+
+---
 
 ## 💁 구현된 어플 DEMO 페이지 
 ### 1️⃣ 메인페이지
