@@ -192,13 +192,13 @@ Plain jar vs Executable jar
 
 2. Manifest duplicated
     
-    빌드 과정에서 물리적으로 두 개의 `MANIFEST.MF` 파일이 존재하지는 않지만, 여러 종속성이나 라이브러리가 각각 자신의 `MANIFEST.MF` 파일을 포함하고 있을 수 있습니다. 빌드 도구인 Gradle은 이 파일들을 병합하거나 복사하는 과정에서 중복된 항목을 처리해야 합니다.
+빌드 과정에서 물리적으로 두 개의 `MANIFEST.MF` 파일이 존재하지는 않지만, 여러 종속성이나 라이브러리가 각각 자신의 `MANIFEST.MF` 파일을 포함하고 있을 수 있습니다. 빌드 도구인 Gradle은 이 파일들을 병합하거나 복사하는 과정에서 중복된 항목을 처리해야 합니다.
     
-    `DuplicatesStrategy`를 설정하지 않으면, Gradle은 기본적으로 중복된 파일을 모두 포함하려고 하며, 이로 인해 빌드 과정에서 충돌이 발생할 수 있습니다. 따라서, `DuplicatesStrategy.EXCLUDE` 설정을 통해 중복 파일을 무시하고 첫 번째 파일만 포함하도록 지정함으로써 이러한 충돌을 방지할 수 있습니다.
+`DuplicatesStrategy`를 설정하지 않으면, Gradle은 기본적으로 중복된 파일을 모두 포함하려고 하며, 이로 인해 빌드 과정에서 충돌이 발생할 수 있습니다. 따라서, `DuplicatesStrategy.EXCLUDE` 설정을 통해 중복 파일을 무시하고 첫 번째 파일만 포함하도록 지정함으로써 이러한 충돌을 방지할 수 있습니다.
     
-    다음은 `DuplicatesStrategy` 설정을 통해 빌드를 성공시키는 일반적인 방법입니다:
+다음은 `DuplicatesStrategy` 설정을 통해 빌드를 성공시키는 일반적인 방법입니다:
     
-    1. **`build.gradle` 파일에서 설정**:
+1. **`build.gradle` 파일에서 설정**:
         
         ```groovy
         groovy코드 복사
@@ -208,15 +208,82 @@ Plain jar vs Executable jar
         
         ```
         
-    2. **기본적으로 병합 과정에서 발생하는 중복 처리**: 여러 종속성에서 동일한 파일을 포함하려 할 때 발생하는 문제를 방지합니다. 이 경우, 처음 발견된 파일만 포함하고 나머지는 무시합니다.
-    3. **빌드 성공**: 중복 파일로 인한 충돌이 발생하지 않으므로 빌드가 성공적으로 완료됩니다.
+2. **기본적으로 병합 과정에서 발생하는 중복 처리**: 여러 종속성에서 동일한 파일을 포함하려 할 때 발생하는 문제를 방지합니다. 이 경우, 처음 발견된 파일만 포함하고 나머지는 무시합니다.
+3. **빌드 성공**: 중복 파일로 인한 충돌이 발생하지 않으므로 빌드가 성공적으로 완료됩니다.
     
-    여기서 중요한 점은 실제로 동일한 파일(예: `MANIFEST.MF`)이 여러 번 포함되려고 하는 상황이 발생할 수 있다는 점입니다. 이 경우, 중복 전략을 설정하지 않으면 Gradle이 충돌을 일으킬 수 있습니다. 따라서, `DuplicatesStrategy.EXCLUDE` 설정은 이러한 문제를 해결하는 데 매우 유용합니다.
+여기서 중요한 점은 실제로 동일한 파일(예: `MANIFEST.MF`)이 여러 번 포함되려고 하는 상황이 발생할 수 있다는 점입니다. 이 경우, 중복 전략을 설정하지 않으면 Gradle이 충돌을 일으킬 수 있습니다. 따라서, `DuplicatesStrategy.EXCLUDE` 설정은 이러한 문제를 해결하는 데 매우 유용합니다.
 
 ### 2️⃣ ForwardedheaderFilter
 
-### 3️⃣
+로컬 서버에서 개발시 문제가 없으나 nginx 안의 Proxy 환경에서 문제가 발생했을 경우 해당 Filter를 확인!
 
+→ Proxy 환경에서는 ForwardedHeaderFilter 가 실행되서 HTTP 요청의 `Forwarded` 헤더 또는 `X-Forwarded-*` 헤더를 처리하여 원래의 요청 정보를 복원해야 한다!
+
+하지만! 해당 Filter 는 Spring Security 필터 체인에 기본적으로 포함되지 않는 Filter
+
+주로  Spring MVC, Spring Boot 의 웹 애플리케이션에서 Proxy 서버나 로드 밸런서 뒤에 있는 클라이언트의 원래 요청 정보를 복원하기 위해 사용됨!
+
+따라서 우리는 해당 Filter를 등록해 우선순위를 보안 필터 체인보다 먼저 실행되게 세팅해야 한다!
+
+```java
+import org.springframework.boot.web.servlet.FilterRegistrationBean;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.filter.ForwardedHeaderFilter;
+import org.springframework.core.Ordered;
+
+@Configuration
+public class FilterConfig {
+
+    @Bean
+    public FilterRegistrationBean<ForwardedHeaderFilter> forwardedHeaderFilter() {
+        FilterRegistrationBean<ForwardedHeaderFilter> bean = new FilterRegistrationBean<>();
+        bean.setFilter(new ForwardedHeaderFilter());
+        // 필터 적용의 위치를 가장 초기 위치에 적용!
+        bean.setOrder(Ordered.HIGHEST_PRECEDENCE);
+        return bean;
+    }
+}
+```
+
+#### 상세 흐름 (X-Forwared-* : XFF)
+
+실제 백엔드는 8080 포트에서 동작합니다. 이 포트를 외부 도메인에 직접 노출시키는 것은 적절하지 않습니다. 8080 포트는 Docker 내부 컨테이너 접근에만 사용되며, 클라이언트가 외부에서 이 포트로 직접 접근하는 것은 본인의 로컬호스트의 8080 포트로 접근하는 것이 되기 때문입니다. 대신 프록시 서버(Nginx)가 외부 도메인과 내부 Docker 컨테이너 간의 요청을 중계합니다.
+
+Nginx는 외부 도메인(`i11c107.p.ssafy.io`)과 내부 Docker 컨테이너(`localhost:8080`) 사이의 프록시 역할을 하여 클라이언트가 도메인으로 접근하면 Nginx가 이를 내부 Docker 컨테이너로 전달합니다. Docker 컨테이너 내부 포트(8080)는 외부 호스트의 다른 포트인 8082(blue), 8081(green)로 번걸아가며 매핑됩니다. 클라이언트는 외부 도메인에 접속하고, Nginx는 이 요청을 내부 Docker 컨테이너로 전달하는 것입니다.
+
+이를 통해 클라이언트는 Docker 컨테이너의 내부 포트를 직접 접근하지 않고도 프록시 서버를 통해 안전하게 애플리케이션에 접근할 수 있습니다. `X-Forwarded-*` 헤더를 통해 클라이언트의 원래 요청 정보가 전달되며, Spring Boot 애플리케이션은 이를 인식하여 올바른 URL을 처리할 수 있게 됩니다.
+
+이를 위해 nginx는 다음과 같은 설정이 있습니다.
+
+```
+location /api/ {
+	proxy_pass 127.0.0.1:8080;
+	...
+  proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+  proxy_set_header X-Forwarded-Proto $scheme;
+  ...
+}
+```
+
+**proxy_set_header X-Forwarded-Proto $scheme**
+
+클라이언트의 프로토콜(HTTP, HTTPS)를 `$scheme`에 담아서  proxy_pass에 명시한 서버에 전달
+
+**proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for**
+
+클라이언트의 실제 IP 주소를 `$proxy_add_x_forwarded_for` 담아서 proxy_pass 서버에 전달
+
+최종적으로, `i11c107.p.ssafy.io`에서 `/api` 경로에 접근할 경우, 다음과 같은 헤더가 내부 컨테이너의 8080 포트에서 실행 중인 백엔드 서버로 전송됩니다.
+
+최종 X-Forwarded-* 헤더
+
+```bash
+X-Forwarded-For: i11c107.p.ssafy.io
+X-Forwarded-Proto: https
+```
+
+Spring Boot는 이 정보를 기반으로 필터를 통해 원래 요청된 URL을 올바르게 처리합니다.
 
 ---
 
