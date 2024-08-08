@@ -34,12 +34,12 @@
     <td>Figma, UI/UX, React, 레이아웃</td>
   </tr>
   <tr>
-    <td>정소영</td>
-    <td>React, 이미지 생성 AI, 텍스트 생성 AI</td>
-  </tr>
-  <tr>
     <td>김연지</td>
     <td>Figma, UI/UX, React, 로그인 & 로그아웃 기능</td>
+  </tr>
+  <tr>
+    <td>정소영</td>
+    <td>React, 이미지 생성 AI, 텍스트 생성 AI</td>
   </tr>
   <tr>
     <th rowspan="1">Full Stack</th>
