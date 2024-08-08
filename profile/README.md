@@ -1,4 +1,4 @@
-# ⛵ Story Boat 
+<h1 style="text-decoration: none;"> ⛵ Story Boat </h1>
 ### 공동 소설 제작 어플리케이션
 ---
 
