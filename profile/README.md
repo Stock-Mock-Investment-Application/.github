@@ -65,10 +65,10 @@
 - **기술 스택 🔧**
 ![Skill](https://github.com/Story-Boat/Ideathon/blob/main/ERD/%EA%B8%B0%EC%88%A0%EC%8A%A4%ED%83%9D2.png?raw=true)
 
-|  | Front | Back |
-| --- | --- | --- |
-| Language | JavaScript | Python |
-| Framework | Vue3<br>Pinia (+Pinia-plugin-persistedstate)<br>vuetify<br>axios<br>chart.js | django<br>django-rest-framework<br>django-rest-auth<br>drf-spectacular |
+|  | Front | Back | Infra |
+| --- | --- | --- |  --- |
+| Language | JavaScript | Python | ddd |
+| Framework | Vue3<br>Pinia (+Pinia-plugin-persistedstate)<br>vuetify<br>axios<br>chart.js | django<br>django-rest-framework<br>django-rest-auth<br>drf-spectacular | ddd |
 
 - 협업 도구
 
