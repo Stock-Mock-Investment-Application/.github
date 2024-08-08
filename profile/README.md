@@ -63,6 +63,7 @@
 ## 📊 설계 내용 (아키텍처 등) 및 실제 구현 정도
 
 - **기술 스택 🔧**
+![Skill](https://github.com/Story-Boat/Ideathon/blob/main/ERD/%EA%B8%B0%EC%88%A0%EC%8A%A4%ED%83%9D.png?raw=true)
 
 |  | Front | Back |
 | --- | --- | --- |
