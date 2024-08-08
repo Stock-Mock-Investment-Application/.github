@@ -321,8 +321,8 @@ Spring Boot는 이 정보를 기반으로 필터를 통해 원래 요청된 URL�
 <br><br>캐릭터 카드 생성, 이미지 업로드 및 수정기능
  <br>
 ### 8️⃣ AI 글쓰기, 그림그리기 
-![글쓰기](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/AIwritting.gif?raw=true)
 ![그림그리기](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/AIpainting.gif?raw=true)
+![글쓰기](https://github.com/Story-Boat/Ideathon/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A0%A8/README%EC%82%AC%EC%A7%84/AIwritting.gif?raw=true)
 <br> AI를 활용한 글쓰기 및 그림그리기 
 <br> 
 <br>
