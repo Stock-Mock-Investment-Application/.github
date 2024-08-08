@@ -63,8 +63,10 @@
 
 |  | Front | Back | Infra |
 | --- | --- | --- |  --- |
-| Language | JavaScript | Python | ddd |
-| Framework | Vue3<br>Pinia (+Pinia-plugin-persistedstate)<br>vuetify<br>axios<br>chart.js | django<br>django-rest-framework<br>django-rest-auth<br>drf-spectacular | ddd |
+| Language | JavaScript | Java | Java |
+| Framework | React | SpringBoot | Amazon EC2, AWS, Jenkins, Docker |
+| Library |  |  |  |
+| DB |  |  |  |
 
 - 협업 도구
 
