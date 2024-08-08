@@ -27,14 +27,48 @@
 
 - 프로젝트 기간 : 2024.4.25(목) ~ 2024.5.23(목)
 
+프런트엔드 
 | 이름 | 역할 및 구현 기능 |
 | --- | --- |
 | 박보람 | [ Front End ]<br>전체 레이아웃 구성, CSS 페이지 디자인<br>JavaScript를 활용한 메인페이지 애니메이션 구현, 고양이 키우기 게임<br>반응형 웹 제작 (Media Query 이용) , Notion 기록, PPT 제작 |
 | 정소영 | [ Full Stack ]<br>커뮤니티 게시판 만들기, Django 유저 정보 구현<br>라우터 URL 연결 작업, Vue와 Djnago 연결작업<br>회원 관리 ,가입상품, 더미데이터 제작 |
 | 김연지 | [ Full Stack ]<br>은행 찾기 구조 구현(카카오맵 API)<br>환율 계산기, 예적금 금리 비교, 추천 알고리즘<br>금융 정보 수정 시 이메일 전송 및 금융 상품 Option DB 담당 |
+
+백엔드
+| 이름 | 역할 및 구현 기능 |
+| --- | --- |
 | 이중현 | [ Front End ]<br>전체 레이아웃 구성, CSS 페이지 디자인<br>JavaScript를 활용한 메인페이지 애니메이션 구현, 고양이 키우기 게임<br>반응형 웹 제작 (Media Query 이용) , Notion 기록, PPT 제작 |
 | 김시온 | [ Full Stack ]<br>커뮤니티 게시판 만들기, Django 유저 정보 구현<br>라우터 URL 연결 작업, Vue와 Djnago 연결작업<br>회원 관리 ,가입상품, 더미데이터 제작 |
 | 서한빈 | [ Full Stack ]<br>은행 찾기 구조 구현(카카오맵 API)<br>환율 계산기, 예적금 금리 비교, 추천 알고리즘<br>금융 정보 수정 시 이메일 전송 및 금융 상품 Option DB 담당 |
+
+<table>
+  <tr>
+    <th rowspan="3">프론트엔드</th>
+    <td>박보람</td>
+    <td>전체 레이아웃 구성, CSS 페이지 디자인 <br> JavaScript를 활용한 메인페이지 애니메이션 구현, 고양이 키우기 게임 <br> 반응형 웹 제작 (Media Query 이용) , Notion 기록, PPT 제작</td>
+  </tr>
+  <tr>
+    <td>정소영</td>
+    <td>커뮤니티 게시판 만들기, Django 유저 정보 구현 <br> 라우터 URL 연결 작업, Vue와 Django 연결작업 <br> 회원 관리, 가입상품, 더미데이터 제작</td>
+  </tr>
+  <tr>
+    <td>김연지</td>
+    <td>은행 찾기 구조 구현(카카오맵 API) <br> 환율 계산기, 예적금 금리 비교, 추천 알고리즘 <br> 금융 정보 수정 시 이메일 전송 및 금융 상품 Option DB 담당</td>
+  </tr>
+  <tr>
+    <th rowspan="3">백엔드</th>
+    <td>이중현</td>
+    <td>전체 레이아웃 구성, CSS 페이지 디자인 <br> JavaScript를 활용한 메인페이지 애니메이션 구현, 고양이 키우기 게임 <br> 반응형 웹 제작 (Media Query 이용) , Notion 기록, PPT 제작</td>
+  </tr>
+  <tr>
+    <td>김시온</td>
+    <td>커뮤니티 게시판 만들기, Django 유저 정보 구현 <br> 라우터 URL 연결 작업, Vue와 Django 연결작업 <br> 회원 관리, 가입상품, 더미데이터 제작</td>
+  </tr>
+  <tr>
+    <td>서한빈</td>
+    <td>은행 찾기 구조 구현(카카오맵 API) <br> 환율 계산기, 예적금 금리 비교, 추천 알고리즘 <br> 금융 정보 수정 시 이메일 전송 및 금융 상품 Option DB 담당</td>
+  </tr>
+</table>
 
 
 ---
