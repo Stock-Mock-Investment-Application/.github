@@ -104,7 +104,6 @@ Jira, Git & Github, Mattermost
 ![Architecture](https://github.com/Story-Boat/Ideathon/blob/main/ERD/%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90(%EA%B0%9C%EC%84%A0%EC%95%88).jpg?raw=true)
 
 ### 🗂️ API 명세서 
-<br>
 
 [API 명세서](https://github.com/Story-Boat/Ideathon/blob/main/%EB%AA%85%EC%84%B8%EC%84%9C/%EA%B3%B5%ED%86%B5%20PJT%20%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%20%EC%A0%95%EB%A6%AC%20-%20API%20%20%EB%AA%85%EC%84%B8%EC%84%9C2.pdf)
 
