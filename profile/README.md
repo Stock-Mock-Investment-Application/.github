@@ -110,9 +110,9 @@ Jira, Git & Github, Mattermost
 ![요구사항 명세서2](https://github.com/Story-Boat/Ideathon/blob/main/%EB%AA%85%EC%84%B8%EC%84%9C/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%20%EB%AA%85%EC%84%B8%EC%84%9C2.png?raw=true)
 
 기능 명세서 
-![기능명세서1](https://github.com/Story-Boat/Ideathon/blob/main/%EB%AA%85%EC%84%B8%EC%84%9C/%EA%B8%B0%EB%8A%A5%EB%AA%85%EC%84%B8%EC%84%9C1.png?raw=true)
-![기능명세서2](https://github.com/Story-Boat/Ideathon/blob/main/%EB%AA%85%EC%84%B8%EC%84%9C/%EA%B8%B0%EB%8A%A5%EB%AA%85%EC%84%B8%EC%84%9C2.png?raw=true)
-
+![기능명세서1](https://github.com/Story-Boat/Ideathon/blob/main/%EB%AA%85%EC%84%B8%EC%84%9C/REAME%EC%9A%A9/%EA%B8%B0%EB%8A%A5%EB%AA%85%EC%84%B81.png?raw=true)
+![기능명세서2](https://github.com/Story-Boat/Ideathon/blob/main/%EB%AA%85%EC%84%B8%EC%84%9C/REAME%EC%9A%A9/%EA%B8%B0%EB%8A%A5%EB%AA%85%EC%84%B82.png?raw=true)
+![기능명세서3](https://github.com/Story-Boat/Ideathon/blob/main/%EB%AA%85%EC%84%B8%EC%84%9C/REAME%EC%9A%A9/%EA%B8%B0%EB%8A%A5%EB%AA%85%EC%84%B83.png?raw=true)
 
 ---
 ## 💻금융 상품 추천 알고리즘에 대한 기술적 설명
