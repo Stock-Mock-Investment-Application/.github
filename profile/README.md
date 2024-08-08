@@ -50,7 +50,6 @@
     <td>김시온</td>
     <td>커뮤니티 게시판 만들기, Django 유저 정보 구현 <br> 라우터 URL 연결 작업, Vue와 Django 연결작업 <br> 회원 관리, 가입상품, 더미데이터 제작</td>
   </tr>
-</table>
   <tr>
     <th rowspan="3">Full Stack</th>
     <td>서한빈</td>
