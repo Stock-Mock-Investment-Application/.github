@@ -65,7 +65,7 @@
 | --- | --- | --- |  --- |
 | **Language** | JavaScript | Java |  |
 | **Framework** | React, Vite | Spring Boot, Spring Security | Amazon EC2, AWS, Jenkins, Docker, Nginx |
-| **Library** | WebRTC, Material-UI (MUI), Yjs, Styled-components, React-i18next, React-speech-kit |  |  |
+| **Library** | WebRTC, Material-UI (MUI), Yjs, Styled-components, React-i18next, React-speech-kit | Lombok  |  |
 | **DB** |  | MongoDB, MariaDB | Amazon S3 |
 | **AI** | SDXL(Stable Diffusion XL), DPO(Direct Preference Optimization) |  |  |
 
