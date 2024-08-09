@@ -79,26 +79,26 @@ StoryBoat는 WebRTC 기술을 활용한 실시간 협업 스토리텔링 플랫�
 | **AI** | SDXL(Stable Diffusion XL) : Stable Diffusion XL 1.0<br/>DPO(Direct Preference Optimization) : zephyr-7b-beta |  |  |
 
 ##### 참고 
-WebRTC : 웹 에서 실시간 통신 지원 (음성, 비디오, 통화, 파일전송 등)
-Yjs : 실시간 협업 지원 라이브러리, 여러 사용자가 동시에 문서를 편집할 때 데이터 동기화 기능 
-Recoil : React 어플 상태관리 라이브러리 
-ReactFlow : 대화형 플로우 차트나, 다이어그램 구현, 노드 간 연결 & 드래그 앤 드롭 기능 
-Material-UI (MUI) : React 기반 UI 구축 라이브러리 
-Styled-components : React 기반 컴포넌트 단위 스타일링 CSS in JS 라이브러리 
-Tailwind CSS : 유틸리티 기반의 CSS 프레임워크
-React-i8next : 다국어 번역 기능 지원 라이브러리
-React-speech-kit : React에서 음성 인식 및 출력 기능 제공 
+WebRTC : 웹 에서 실시간 통신 지원 (음성, 비디오, 통화, 파일전송 등) <br/>
+Yjs : 실시간 협업 지원 라이브러리, 여러 사용자가 동시에 문서를 편집할 때 데이터 동기화 기능  <br/>
+Recoil : React 어플 상태관리 라이브러리  <br/>
+ReactFlow : 대화형 플로우 차트나, 다이어그램 구현, 노드 간 연결 & 드래그 앤 드롭 기능  <br/> 
+Material-UI (MUI) : React 기반 UI 구축 라이브러리  <br/>
+Styled-components : React 기반 컴포넌트 단위 스타일링 CSS in JS 라이브러리  <br/> 
+Tailwind CSS : 유틸리티 기반의 CSS 프레임워크 <br/>
+React-i8next : 다국어 번역 기능 지원 라이브러리 <br/>
+React-speech-kit : React에서 음성 인식 및 출력 기능 제공 <br/> 
 
-Lombok : Java에서 사용되는 라이브러리로, 반복되는 코드를 줄여 개발 생산성을 높여줌
-Spring Security : Spring 기반 보안 기능 프레임워크, 인증과 권한부여 기능 제공 
-AWS(Amazon Web Services) : 아마존에서 제공하는 클라우드 서비스 플랫폼, EC2(서버), S3(스토리지), RDS(DB) 등 다양한 서비스로 구성됨
-Amazon EC2 : AWS에서 제공하는 확장 가능한 가상 서버
-Amazon S3 : AWS에서 제공하는 객체 스토리지 서비스, 대규모 데이터를 저장하고 관리할 때 안정적인 저장소 제공 
-Nginx : 웹 서버, 리버스 프록시 서버, 로드 밸런서, HTTP 캐시 서버로 사용됨
-Docker : 개발 환경설정, 컨테이넌화된 어플의 배포, 스타일링, 관리를 용이하게 하는 플랫폼
+Lombok : Java에서 사용되는 라이브러리로, 반복되는 코드를 줄여 개발 생산성을 높여줌 <br/>
+Spring Security : Spring 기반 보안 기능 프레임워크, 인증과 권한부여 기능 제공  <br/>
+AWS(Amazon Web Services) : 아마존에서 제공하는 클라우드 서비스 플랫폼, EC2(서버), S3(스토리지), RDS(DB) 등 다양한 서비스로 구성됨 <br/>
+Amazon EC2 : AWS에서 제공하는 확장 가능한 가상 서버 <br/>
+Amazon S3 : AWS에서 제공하는 객체 스토리지 서비스, 대규모 데이터를 저장하고 관리할 때 안정적인 저장소 제공  <br/>
+Nginx : 웹 서버, 리버스 프록시 서버, 로드 밸런서, HTTP 캐시 서버로 사용됨 <br/>
+Docker : 개발 환경설정, 컨테이넌화된 어플의 배포, 스타일링, 관리를 용이하게 하는 플랫폼 <br/>
 
-SDXL : 텍스트 기반 이미지 생성 인공지능 딥러닝 모델, 고해상도 이미지 생성에 뛰어난 성능을 보임 (Stable Diffusion XL 1.0)
-DPO : 사용자 선호도를 직접 최적화하는 머신러닝 모델의 강화학습 기법 (zephyr-7b-beta)
+SDXL : 텍스트 기반 이미지 생성 인공지능 딥러닝 모델, 고해상도 이미지 생성에 뛰어난 성능을 보임 (Stable Diffusion XL 1.0) <br/>
+DPO : 사용자 선호도를 직접 최적화하는 머신러닝 모델의 강화학습 기법 (zephyr-7b-beta) <br/>
 
 <br/>
 - 협업 도구
