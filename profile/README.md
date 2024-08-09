@@ -78,7 +78,7 @@ StoryBoat는 WebRTC 기술을 활용한 실시간 협업 스토리텔링 플랫�
 | **CI/CD Tools** |  |  | Jenkins |
 | **AI** | SDXL(Stable Diffusion XL) : Stable Diffusion XL 1.0<br/>DPO(Direct Preference Optimization) : zephyr-7b-beta |  |  |
 
-##### 참고 
+#### 추가 설명
 WebRTC : 웹 에서 실시간 통신 지원 (음성, 비디오, 통화, 파일전송 등) <br/>
 Yjs : 실시간 협업 지원 라이브러리, 여러 사용자가 동시에 문서를 편집할 때 데이터 동기화 기능  <br/>
 Recoil : React 어플 상태관리 라이브러리  <br/>
