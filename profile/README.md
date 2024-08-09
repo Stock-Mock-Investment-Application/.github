@@ -40,7 +40,7 @@ StoryBoat는 WebRTC 기술을 활용한 실시간 협업 스토리텔링 플랫�
   </tr>
   <tr>
     <td>정소영</td>
-    <td>React(캐릭터 & 스튜디오 보관소, 랜딩페이지) <br/> 이미지 생성 AI, 텍스트 생성 AI, README 기록</td>
+    <td>React(캐릭터 & 스튜디오 보관소 페이지 전체 DB연결 및 구현, 메인 페이지, 버블 & 불빛 애니메이션 기능 ) <br/> 이미지 생성 AI, 텍스트 생성 AI, README 기록</td>
   </tr>
   <tr>
     <th rowspan="1">Full Stack</th>
