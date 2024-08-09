@@ -27,11 +27,11 @@ StoryBoat는 WebRTC 기술을 활용한 실시간 협업 스토리텔링 플랫�
 
 - 프로젝트 기간 : 2024.07.02 ~ 2024.08.16 (약 7주)
 
-<table>
+<table style="width: 100%; border-collapse: collapse;">
   <tr>
-    <th rowspan="3">Front</th>
-    <td>박보람</td>
-    <td>TL, FL, Figma, UI/UX, React, 레이아웃</td>
+    <th style="width: 15%;" rowspan="3">Front</th>
+    <td style="width: 20%;">박보람</td>
+    <td style="width: 65%;">TL, FL, Figma, UI/UX, React, 레이아웃</td>
   </tr>
   <tr>
     <td>김연지</td>
@@ -39,7 +39,7 @@ StoryBoat는 WebRTC 기술을 활용한 실시간 협업 스토리텔링 플랫�
   </tr>
   <tr>
     <td>정소영</td>
-    <td>React(캐릭터 & 스튜디오 보관소, 랜딩페이지 <br/> 이미지 생성 AI, 텍스트 생성 AI, README 기록<td>
+    <td>React(캐릭터 & 스튜디오 보관소, 랜딩페이지 <br/> 이미지 생성 AI, 텍스트 생성 AI, README 기록)</td>
   </tr>
   <tr>
     <th rowspan="1">Full Stack</th>
@@ -56,6 +56,7 @@ StoryBoat는 WebRTC 기술을 활용한 실시간 협업 스토리텔링 플랫�
     <td>PM, CI/CD 구축, 인프라</td>
   </tr>
 </table>
+
 
 
 ---
