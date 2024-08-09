@@ -32,7 +32,7 @@ StoryBoat는 WebRTC 기술을 활용한 실시간 협업 스토리텔링 플랫�
   <tr>
     <th style="width: 15%;" rowspan="3">Front</th>
     <td style="width: 20%;">박보람</td>
-    <td style="width: 65%;">TL, FL, Figma, UI/UX, React, 레이아웃</td>
+    <td style="width: 65%;">팀장, 프런트엔드 리더<br/> Figma, UI/UX, React, 레이아웃</td>
   </tr>
   <tr>
     <td>김연지</td>
@@ -45,16 +45,16 @@ StoryBoat는 WebRTC 기술을 활용한 실시간 협업 스토리텔링 플랫�
   <tr>
     <th rowspan="1">Full Stack</th>
     <td>서한빈</td>
-    <td>THECL, WebRTC 기능구현, SpringBoot, UCC</td>
+    <td>THEC 리더 <br/> WebRTC 기능구현, SpringBoot, UCC</td>
   </tr>
   <tr>
     <th rowspan="2">Back</th>
     <td>이중현</td>
-    <td>BL, JPA, SpringBoot</td>
+    <td>백엔드 리더<br/> JPA, SpringBoot</td>
   </tr>
   <tr>
     <td>김시온</td>
-    <td>PM, CI/CD 구축, 인프라</td>
+    <td>PM<br/> CI/CD 구축, 인프라</td>
   </tr>
 </table>
 
