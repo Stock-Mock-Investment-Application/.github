@@ -31,7 +31,7 @@ StoryBoat는 WebRTC 기술을 활용한 실시간 협업 스토리텔링 플랫�
   <tr>
     <th rowspan="3">Front</th>
     <td>박보람</td>
-    <td>Figma, UI/UX, React, 레이아웃</td>
+    <td>TL, FL, Figma, UI/UX, React, 레이아웃</td>
   </tr>
   <tr>
     <td>김연지</td>
@@ -39,21 +39,21 @@ StoryBoat는 WebRTC 기술을 활용한 실시간 협업 스토리텔링 플랫�
   </tr>
   <tr>
     <td>정소영</td>
-    <td>React(캐릭터 & 스튜디오 보관소, 랜딩페이지, 이미지 생성 AI, 텍스트 생성 AI, README 기록<td>
+    <td>React(캐릭터 & 스튜디오 보관소, 랜딩페이지 <br/> 이미지 생성 AI, 텍스트 생성 AI, README 기록<td>
   </tr>
   <tr>
     <th rowspan="1">Full Stack</th>
     <td>서한빈</td>
-    <td>WebRTC 기능구현, SpringBoot, UCC</td>
+    <td>THECL, WebRTC 기능구현, SpringBoot, UCC</td>
   </tr>
   <tr>
     <th rowspan="2">Back</th>
     <td>이중현</td>
-    <td>JPA, SpringBoot</td>
+    <td>BL, JPA, SpringBoot</td>
   </tr>
   <tr>
     <td>김시온</td>
-    <td>CI/CD 구축, 인프라</td>
+    <td>PM, CI/CD 구축, 인프라</td>
   </tr>
 </table>
 
